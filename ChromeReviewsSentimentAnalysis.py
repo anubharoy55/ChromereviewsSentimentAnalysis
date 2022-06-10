@@ -113,6 +113,5 @@ class ChromeReviewsSentimentAnalysis:
         
 import pickle
 pickle_out = open("classifier.pkl", mode = "wb")
-pickle.dump(ChromeReviewsSentimentAnalysisCopyy
-, pickle_out)
+pickle.dump(ChromeReviewsSentimentAnalysis, pickle_out)
 pickle_out.close()
