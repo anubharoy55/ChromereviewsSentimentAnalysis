@@ -18,7 +18,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 import csv
 lemmatizer = WordNetLemmatizer()
 
-class ChromeReviewsSentimentAnalysisCopyy:
+class ChromeReviewsSentimentAnalysis:
         
     def fileOperations(df1):
         
