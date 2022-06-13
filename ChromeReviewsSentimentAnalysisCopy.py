@@ -13,7 +13,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 import csv
 lemmatizer = WordNetLemmatizer()
 
-class ChromeReviewsSentimentAnalysisCopyy:
+class ChromeReviewsSentimentAnalysisCopy:
         
     def fileOperations(df1):
         
@@ -109,6 +109,6 @@ class ChromeReviewsSentimentAnalysisCopyy:
         
 import pickle
 pickle_out = open("classifier.pkl", mode = "wb")
-pickle.dump(ChromeReviewsSentimentAnalysisCopyy
+pickle.dump(ChromeReviewsSentimentAnalysisCopy
 , pickle_out)
 pickle_out.close()
