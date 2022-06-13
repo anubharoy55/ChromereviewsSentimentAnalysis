@@ -7,8 +7,9 @@ Created on Fri Jun 10 11:49:57 2022
 
 import pandas as pd
 import nltk
-#nltk.download('stopwords')
+nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('vader_lexicon')
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
