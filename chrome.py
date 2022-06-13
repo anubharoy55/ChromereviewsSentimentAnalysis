@@ -11,7 +11,7 @@ import pandas as pd
 
 import streamlit as st
 
-import ChromeReviewsSentimentAnalysisCopyy
+import ChromeReviewsSentimentAnalysisCopy
 
 def welcome():
     return "HELLO WORLD"
